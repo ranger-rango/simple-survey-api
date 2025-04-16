@@ -12,4 +12,8 @@ Pre-requisites - python3.
 Modules Setup - python3 -m pip install -r requirements.txt .  
 
 Running the API  
-python3 -m uvicorn simple-survey-api:app .
+python3 -m uvicorn simple-survey-api:app .  
+
+Getting the FastAPI Documentaion.  
+FastAPI provides the documentation of the API endpoints automatically at:  
+baseURL/docs e.g. http://localhost:8000/docs
